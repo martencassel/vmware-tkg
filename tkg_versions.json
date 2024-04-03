@@ -6,7 +6,10 @@
             "1.28.4",
             "1.27.8",
             "1.26.11"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.28.4+vmware.1.gz",
+        "tcli_version": "1.1.0",
+        "tanzu_linux": "tanzu-cli-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.4.1",
@@ -15,7 +18,10 @@
             "1.27.5",
             "1.26.8",
             "1.25.13"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.27.5+vmware.1.gz",
+        "tcli_version": "1.1.0",
+        "tanzu_linux": "tanzu-cli-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.4.0",
@@ -24,16 +30,10 @@
             "1.27.5",
             "1.26.8",
             "1.25.13"
-        ]
-    },
-    {
-        "tkgv": "2.4.0",
-        "mckv": "1.27.5",
-        "tkr_list": [
-            "1.27.5",
-            "1.26.8",
-            "1.25.13"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.27.5+vmware.1.gz",
+        "tcli_version": "1.1.0",
+        "tanzu_linux": "tanzu-cli-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.3.1",
@@ -42,7 +42,10 @@
             "1.26.8",
             "1.25.13",
             "1.24.17"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.26.8+vmware.1.gz",
+        "tcli_version": "1.1.0",
+        "tanzu_linux": "tanzu-cli-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.3.0",
@@ -51,7 +54,9 @@
             "1.26.5",
             "1.25.10",
             "1.24.14"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.26.5+vmware.2.gz",
+        "tanzu_linux": "tanzu-cli-bundle-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.2.0",
@@ -60,7 +65,9 @@
             "1.25.7",
             "1.24.11",
             "1.23.17"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.25.7+vmware.2.gz",
+        "tanzu_linux": "tanzu-cli-bundle-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.1.1",
@@ -69,7 +76,9 @@
             "1.24.10",
             "1.23.16",
             "1.22.17"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.24.10+vmware.1.gz",
+        "tanzu_linux": "tanzu-cli-bundle-linux-amd64.tar.gz"
     },
     {
         "tkgv": "2.1.0",
@@ -78,6 +87,8 @@
             "1.24.9",
             "1.23.16",
             "1.22.17"
-        ]
+        ],
+        "kubectl_linux": "kubectl-linux-v1.24.9+vmware.1.gz",
+        "tanzu_linux": "tanzu-cli-bundle-linux-amd64.tar.gz"
     }    
 ]
