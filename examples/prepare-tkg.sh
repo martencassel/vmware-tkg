@@ -1,4 +1,5 @@
 #!/bin/bash
+
 TKG_VERSION=$1
 KUBECTL_FILE=$2
 OVA_FILE=$3
@@ -24,10 +25,11 @@ rm -f ~/.config/tanzu/tkg/compatibility/tkg-compatibility.yaml
 #
 # Setup CLI
 #
-../tkg/bin/get-tkg-files.sh $TKG_VERSION
-../tkg/bin/get-tanzu-cli.sh $TKG_VERSION
-../tkg/bin/get-tkg-files.sh $TKG_VERSION
-../tkg/bin/get-tkg-file.sh $TKG_VERSION "$KUBECTL_FILE.gz" $KUBECTL_FILE
+./tkg/bin/get-tkg-files.sh $TKG_VERSION
+./tkg/bin/get-tanzu-cli.sh $TKG_VERSION
+./tkg/bin/get-tkg-files.sh $TKG_VERSION
+
+./tkg/bin/get-tkg-file.sh $TKG_VERSION "$KUBECTL_FILE.gz" $KUBECTL_FILE
 ln -s $KUBECTL_FILE ./kubectl
 
 echo "Now you can use the following commands in your local folder:"
@@ -40,8 +42,8 @@ echo "Now you can use the following commands in your local folder:"
 
 # If variable is set, download the OVA file otherwise skip.
 if [ ! -z "$OVA_FILE" ]; then
-    ../tkg/bin/get-tkg-files.sh $TKG_VERSION
-    ../tkg/bin/get-tkg-file.sh $TKG_VERSION $OVA_FILE $OVA_FILE
+    ./tkg/bin/get-tkg-files.sh $TKG_VERSION
+    ./tkg/bin/get-tkg-file.sh $TKG_VERSION $OVA_FILE $OVA_FILE
     # Upload to vSphere Folder
     mv -f $OVA_FILE /mnt/c/Users/semca/
     echo "Open browser and upload OVF to vsphere folder, dont forget to convert to template"

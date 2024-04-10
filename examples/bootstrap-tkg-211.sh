@@ -5,7 +5,7 @@ KUBECTL_FILE="kubectl-linux-v1.24.9+vmware.1.gz"
 #OVA_FILE="photon-3-kube-v1.24.10+vmware.1-tkg.1-fbb49de6d1bf1f05a1c3711dea8b9330.ova"
 OVA_FILE=""
 
-../tkg/bin/prepare-tkg.sh $TKG_VERSION $KUBECTL_FILE $OVA_FILE
+./prepare-tkg.sh $TKG_VERSION $KUBECTL_FILE $OVA_FILE
 
 # Check we have tanzu cli and kubectl
 ./tanzu version --short

@@ -11,14 +11,14 @@ TKG_VERSION="2.2.0"
 KUBECTL_FILE="kubectl-linux-v1.25.7+vmware.2.gz"
 #OVA_FILE="photon-3-kube-v1.25.7+vmware.2-tkg.1-8795debf8031d8e671660af83b673daa.ova"
 OVA_FILE=""
-../tkg/bin/prepare-tkg.sh $TKG_VERSION $KUBECTL_FILE $OVA_FILE
+./prepare-tkg.sh $TKG_VERSION $KUBECTL_FILE $OVA_FILE
 
 # Verify that Tanzu CLI and kubectl are installed and has the correct version
 ./tanzu version
 ./kubectl version --short
 
 # Check that the OVA file for the management cluster is uploaded to vSphere
-../tkg/bin/get-tkg-files.sh $TKG_VERSION|grep "photon-3-kube-v1.25.7+vmware.2-tkg.1-8795debf8031d8e671660af83b673daa.ova"
+./tkg/bin/get-tkg-files.sh $TKG_VERSION|grep "photon-3-kube-v1.25.7+vmware.2-tkg.1-8795debf8031d8e671660af83b673daa.ova"
 
 #
 # Check versions before upgrade
