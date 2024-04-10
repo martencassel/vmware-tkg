@@ -12,7 +12,7 @@ Some specific features
 
 - Find out what files are required to download in order to setup a specific TKG release version
 - Automatically download and install the Tanzu CLI for a specific standalone TKG version (including kubectl) 
-- List the avilable versions of TKG that is published on VMware CUstomer Connect
+- List the avilable versions of TKG that is published on VMware Customer Connect
 - Download a specific file for a TKG version, such as a OVA file
 
 ## Installation
