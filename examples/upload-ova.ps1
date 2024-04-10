@@ -1,5 +1,3 @@
-
-
 docker run -v $(pwd):/host -it vmware/powerclicore
 
 Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -ParticipateInCeip $false

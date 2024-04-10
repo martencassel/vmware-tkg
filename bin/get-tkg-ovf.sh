@@ -9,4 +9,4 @@ fi
 VCC_PRODUCT="vmware_tanzu_kubernetes_grid"
 VCC_SUBPRODUCT="tkg"
 VCC_VERSION=$TKG_VERSION
-./get-vcc-files.sh $VCC_PRODUCT $VCC_SUBPRODUCT $VCC_VERSION|grep $FILE_PATTERN|grep -v tiny|grep -v fips|grep -v harbor|grep -v haproxy
+get-vcc-files.sh $VCC_PRODUCT $VCC_SUBPRODUCT $VCC_VERSION|grep $FILE_PATTERN|grep -v tiny|grep -v fips|grep -v harbor|grep -v haproxy
