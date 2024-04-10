@@ -19,9 +19,6 @@ Some specific features
 
 [![asciicast](https://asciinema.org/a/jIGKSusKSOmTSIjinHzcn8tLI.svg)](https://asciinema.org/a/jIGKSusKSOmTSIjinHzcn8tLI)
 
-[![asciicast](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.svg)](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3)
-
-
 ## Installation
 
 Clone this repo. These tools require VMWare Customer Connect CLI avilable from https://github.com/vmware-labs/vmware-customer-connect-cli/releases.
