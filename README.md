@@ -15,6 +15,12 @@ Some specific features
 - List the avilable versions of TKG that is published on VMware Customer Connect
 - Download a specific file for a TKG version, such as a OVA file
 
+## Demo
+
+[![asciicast](https://asciinema.org/a/jIGKSusKSOmTSIjinHzcn8tLI.svg)](https://asciinema.org/a/jIGKSusKSOmTSIjinHzcn8tLI)
+
+
+
 ## Installation
 
 Clone this repo. These tools require VMWare Customer Connect CLI avilable from https://github.com/vmware-labs/vmware-customer-connect-cli/releases.
