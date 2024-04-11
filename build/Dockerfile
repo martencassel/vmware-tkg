@@ -12,6 +12,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Install all scripts
 WORKDIR /work
+
 RUN git clone https://github.com/martencassel/vmware-tkg.git /work
 
 # Setup bash shell

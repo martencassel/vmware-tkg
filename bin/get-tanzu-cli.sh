@@ -274,7 +274,7 @@ case $TKG_VERSION in
     VCC_VERSION="2.1.1"
     VCC_FILE="tanzu-cli-bundle-linux-amd64.tar.gz"
     VCC_BUNDLE_FILE_PATH="cli/core/v0.28.1/tanzu-core-linux_amd64"
-    get-tkg-file.sh 2.1.1 kubectl-linux-v1.24.10+vmware.1.gz kubectl-linux-v1.24.10+vmware.1
+    download_kubectl_cli $VCC_PRODUCT $VCC_SUBPRODUCT $VCC_VERSION kubectl-linux-v1.24.10+vmware.1.gz kubectl-linux-v1.24.10+vmware.1
     ;;    
   2.2.0)
     VCC_PRODUCT="vmware_tanzu_kubernetes_grid"
@@ -350,14 +350,7 @@ fi
 # Download tanzu cli binary
 download_tanzu_cli $VCC_PRODUCT $VCC_SUBPRODUCT $VCC_VERSION $VCC_FILE $VCC_BUNDLE_FILE_PATH
 
-#Download kubectl binary
-VCC_PRODUCT="vmware_tanzu_kubernetes_grid"
-VCC_SUBPRODUCT="tkg"
-VCC_VERSION="2.1.1"
-VCC_FILE="kubectl-linux-v1.24.10+vmware.1.gz"
-VCC_BUNDLE_FILE_PATH="kubectl-linux-v1.24.10+vmware.1"
 
-download_kubectl_cli $VCC_PRODUCT $VCC_SUBPRODUCT $VCC_VERSION $VCC_FILE $VCC_BUNDLE_FILE_PATH
 
 
 
